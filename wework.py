@@ -10,7 +10,7 @@ import time
 class WxWork:
     #企业微信 corp_id
     CORP_ID = ''
-    #消息存单的secret_key
+    #消息存档的secret_key
     CHAT_SECRET = ''
     #打开读取秘钥，文件为秘钥文件的存储地址，我这里放同级目录下
     with open('private.pem','r') as f:
